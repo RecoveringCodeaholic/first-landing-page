@@ -13,19 +13,64 @@ body {
 .topbar {
     display: flex;
     justify-content: space-between;
+    padding-top: 16px;
 }
 
 .container {
     display: flex;
-    justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 120px;
     
+}
+.container2 {
+    display: flex;
+    max-width: 400px;
+    flex-wrap: wrap;
+
+}
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+    max-width: 400px;
+}
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 ul {
     display: flex;
     list-style: none;
     margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 14px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+
+}
+.card {
+        border: 1px solid #eee;
+        box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+        border-radius: 4px;
+        background-color: bisque;
+        width: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+button {
+    font-size: 14px;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: bisque;
+    font-weight: bold;
+    margin-top: 16px;
 }
