@@ -143,3 +143,32 @@ button {
     background-color: rgb(250, 220, 248);
     padding: 32px
 }
+.action {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.sign {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(191, 102, 196);
+    margin: 100px 200px;
+    padding: 50px 150px;
+    flex-grow: 1;
+    color: white
+}
+.top {
+    font-weight: bold;
+    font-size: 28px;
+}
+.bot {
+    display: flex;
+}
+.buttontwo{ 
+    padding: 8px 40px;
+    border-radius: 8px;
+    border: solid;
+    border-color: white;
+    display: flex;
+    align-items: center;
+}
